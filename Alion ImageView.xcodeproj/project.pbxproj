@@ -12,6 +12,11 @@
 		CDA89C4F2071F84800F8AFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA89C4D2071F84800F8AFB7 /* Main.storyboard */; };
 		CDA89C512071F84800F8AFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA89C502071F84800F8AFB7 /* Assets.xcassets */; };
 		CDA89C542071F84800F8AFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA89C522071F84800F8AFB7 /* LaunchScreen.storyboard */; };
+		CDA89C622071F8EF00F8AFB7 /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA89C5D2071F8EF00F8AFB7 /* frame1.png */; };
+		CDA89C632071F8EF00F8AFB7 /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA89C5E2071F8EF00F8AFB7 /* frame4.png */; };
+		CDA89C642071F8EF00F8AFB7 /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA89C5F2071F8EF00F8AFB7 /* frame2.png */; };
+		CDA89C652071F8EF00F8AFB7 /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA89C602071F8EF00F8AFB7 /* frame5.png */; };
+		CDA89C662071F8EF00F8AFB7 /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA89C612071F8EF00F8AFB7 /* frame3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		CDA89C502071F84800F8AFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA89C532071F84800F8AFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA89C552071F84800F8AFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA89C5D2071F8EF00F8AFB7 /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		CDA89C5E2071F8EF00F8AFB7 /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		CDA89C5F2071F8EF00F8AFB7 /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		CDA89C602071F8EF00F8AFB7 /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
+		CDA89C612071F8EF00F8AFB7 /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,12 @@
 		CDA89C482071F84800F8AFB7 /* Alion ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				CDA89C5D2071F8EF00F8AFB7 /* frame1.png */,
+				CDA89C5F2071F8EF00F8AFB7 /* frame2.png */,
+				CDA89C612071F8EF00F8AFB7 /* frame3.png */,
+				CDA89C5E2071F8EF00F8AFB7 /* frame4.png */,
+				CDA89C602071F8EF00F8AFB7 /* frame5.png */,
+				CDA89C5C2071F8E400F8AFB7 /* New Group */,
 				CDA89C492071F84800F8AFB7 /* AppDelegate.swift */,
 				CDA89C4B2071F84800F8AFB7 /* ViewController.swift */,
 				CDA89C4D2071F84800F8AFB7 /* Main.storyboard */,
@@ -62,6 +78,13 @@
 				CDA89C552071F84800F8AFB7 /* Info.plist */,
 			);
 			path = "Alion ImageView";
+			sourceTree = "<group>";
+		};
+		CDA89C5C2071F8E400F8AFB7 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +146,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA89C632071F8EF00F8AFB7 /* frame4.png in Resources */,
+				CDA89C652071F8EF00F8AFB7 /* frame5.png in Resources */,
 				CDA89C542071F84800F8AFB7 /* LaunchScreen.storyboard in Resources */,
+				CDA89C662071F8EF00F8AFB7 /* frame3.png in Resources */,
+				CDA89C642071F8EF00F8AFB7 /* frame2.png in Resources */,
+				CDA89C622071F8EF00F8AFB7 /* frame1.png in Resources */,
 				CDA89C512071F84800F8AFB7 /* Assets.xcassets in Resources */,
 				CDA89C4F2071F84800F8AFB7 /* Main.storyboard in Resources */,
 			);
